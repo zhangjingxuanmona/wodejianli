@@ -1,0 +1,78 @@
+body,html,.swiper-container,.main{width: 100%;height: 100%;overflow: hidden}
+html{font-size: 100px}
+
+
+
+
+
+
+.jiantou{z-index:9;position: absolute;left:2.2rem;bottom: .3rem;background: url("../img/jiantou.png")no-repeat;width: 1.89rem;height: 1.61rem;background-size: cover;-webkit-animation: fadeInUp 1s .2s infinite ease both;}
+
+
+/*第一屏*/
+.page1{background: url("../img/page1/beijing1.png")no-repeat;background-size: 100% 100%;}
+.page1 div{margin: 0 auto}
+
+.page1 .jianli{opacity:0;position:absolute;
+    left:2.2rem;top:5rem;background: url("../img/page1/jianli.png")no-repeat;width: 2.42rem;height: 1.61rem;background-size: cover}
+
+
+/*第一屏动画*/
+#page1 .jianli{-webkit-animation: bounceInDown 1s ease 1s both;animation: bounceInDown 1s ease .2s both;}
+#page1 .text2{-webkit-animation: flipInX 1s ease 2s both;animation: flipInX 1s ease .6s both;}
+
+
+/*第二屏*/
+.page2{background: url("../img/page2/beijing2.png")no-repeat;background-size: 100% 100%;}
+.page2 .xinxi{opacity:0;position:absolute;left:.7rem;top:3rem;background: url("../img/page2/xinxi.png")no-repeat;width: 1.93rem;height: .53rem;background-size: cover}
+.page2 .zhaopian{opacity:0;position:absolute;left:3.5rem;top:1rem;background: url("../img/page2/zhaopian.jpg")no-repeat;width: 1.7rem;height: 2.5rem;background-size: cover;}
+.page2 .xingming{opacity:0;position:absolute;left:.8rem;top:4.5rem;background: url("../img/page2/xingming.png")no-repeat;width: 2.17rem;height: .40rem;background-size: cover;}
+.page2 .mingzu{opacity:0;position:absolute;left:.5rem;top:5.5rem;background: url("../img/page2/minzu.png")no-repeat;width: 1.45rem;height:.4rem;background-size: cover;}
+.page2 .jiguan{opacity:0;position:absolute;left:.8rem;top:5.6rem;background: url("../img/page2/jiguan.png")no-repeat;width: 3.25rem;height:.4rem;background-size: cover;}
+.page2 .zhuanye{opacity:0;position:absolute;left:.8rem;top:6.5rem;background: url("../img/page2/zhuanye.png")no-repeat;width: 3.61rem;height:.4rem;background-size: cover;}
+.page2 .yuanxiao{opacity:0;position:absolute;left:.8rem;top:7.5rem;background: url("../img/page2/yuanxiao.png")no-repeat;width: 4.61rem;height:.41rem;background-size: cover;}
+
+
+
+/*第二屏动画*/
+#page2 .xinxi{-webkit-animation: bounceIn 1s ease 1s both;animation: bounceIn 1s ease .6s both;}
+#page2 .zhaopian{-webkit-animation: fadeIn 1s ease 1s both;animation: fadeIn 1s ease .6s both;}
+#page2 .xingming{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page2 .minzu{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page2 .jiguan{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page2 .zhuanye{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.4s both;}
+#page2 .yuanxiao{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.6s both;}
+
+
+/*第三屏*/
+.page3{background: url("../img/page3/beijing3.png")no-repeat;width:6.41rem;height:11.36rem;background-size: 100% 100%;}
+.page3 .jineng{opacity:0;position:absolute;left:2.35rem;top:1.5rem;background: url("../img/page3/jineng.png")no-repeat;width: 1.71rem;height: .49rem;background-size: cover}
+.page3 .ai{opacity:0;position:absolute;left:1.5rem;top:3.7rem;background: url("../img/page3/ai.png")no-repeat;width: 1.20rem;height:.75rem;background-size: cover;}
+.page3 .ps{opacity:0;position:absolute;left:3.8rem;top:3.7rem;background: url("../img/page3/ps.png")no-repeat;width: 1.20rem;height:.75rem;background-size: cover;}
+.page3 .ws{opacity:0;position:absolute;left:1.2rem;top:5.7rem;background: url("../img/page3/ws.png")no-repeat;width: 1.2rem;height:1.2rem;background-size: cover;}
+.page3 .dw{opacity:0;position:absolute;left:3.8rem;top:5.9rem;background: url("../img/page3/dw.png")no-repeat;width: 1.20rem;height:.75rem;background-size: cover;}
+.page3 .git{opacity:0;position:absolute;left:1.5rem;top:8rem;background: url("../img/page3/git.png")no-repeat;width: 1.20rem;height:.75rem;background-size: cover;}
+.page3 .sand{opacity:0;position:absolute;left:3.8rem;top:6.5rem;background: url("../img/page3/sand.png")no-repeat;width: 1.20rem;height:.75rem;background-size: cover;}
+
+
+/*第三屏动画*/
+#page3 .jineng{-webkit-animation: bounceIn 1s ease 1s both;animation: bounceIn 1s ease .6s both;}
+#page3 .ai{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page3 .ps{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page3 .ws{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.7s both;}
+#page3 .dw{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.9s both;}
+#page3 .git{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.3s both;}
+#page3 .sang{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.5s both;}
+
+
+/*第四屏*/
+.page4{background: url("../img/page4/beijing4.png")no-repeat;background-size: 100% 100%;}
+.page4 .ganxie{opacity:0;position:absolute;left:2.2rem;top:5rem;background: url("../img/page4/ganxie.png")no-repeat;width: 2.24rem;height: 1.96rem;background-size: cover}
+
+.page4 .er{opacity:0;position:absolute;left:3.5rem;top:-1rem;background: url("../img/page4/er.png")no-repeat;width: 3rem;height:5.33rem;background-size: cover;}
+
+
+
+/*第四屏动画*/
+#page4 .ganxie{-webkit-animation: bounceIn 1s ease 1s both;animation: bounceIn 1s ease .6s both;}
+#page4 .er{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
